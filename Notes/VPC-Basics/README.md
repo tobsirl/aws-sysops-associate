@@ -12,3 +12,10 @@
 - Optional single assigned IPv6 /56 CIDR Block
 
 ![Custom VPC](/09-VPC-Basics/02_custom_vpc/vpc_endstate.png)
+
+## DNS in a VPC
+
+- Provided by Amazon Route 53
+- VPC Base IP + 2 Address
+- `enableDnsHostnames` - gives instance DNS names
+- `enableDnsSupport` - resolves public DNS names
